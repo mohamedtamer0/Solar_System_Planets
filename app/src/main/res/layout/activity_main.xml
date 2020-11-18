@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/intro"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font1"
+        android:text="Solar System Planets"
+        android:textSize="55sp"
+        android:textColor="@color/text"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/card_grad"
+        android:orientation="vertical" />
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPager"
+        android:clipToPadding="true"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:overScrollMode="never"
+
+        >
+
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+
+</RelativeLayout>
